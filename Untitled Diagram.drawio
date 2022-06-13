@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-13T11:31:46.363Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="FuFfcUP0dXN7R_4yHVcq" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-13T11:47:17.189Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="kbEWv3JtZgZhChx96Jpp" version="20.0.1" type="github" pages="2">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1019" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -82,6 +82,62 @@
         </mxCell>
         <mxCell id="4P_xM4H7M9yueqmrd9iT-113" value="路由&lt;br&gt;发现" style="ellipse;whiteSpace=wrap;html=1;gradientColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="274" y="270" width="50" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zvdKfTuXb_QazK88IWo0" name="Page-2">
+    <mxGraphModel dx="751" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9ChwKFfKBZ4olAMdu5OI-42" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="9ChwKFfKBZ4olAMdu5OI-2" target="9ChwKFfKBZ4olAMdu5OI-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ChwKFfKBZ4olAMdu5OI-2" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;查询网关&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC" vertex="1" parent="1">
+          <mxGeometry x="280" y="242" width="110" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="9ChwKFfKBZ4olAMdu5OI-14" value="Solr库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#E6FFCC;strokeColor=default;rounded=1;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="450" y="244" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9ChwKFfKBZ4olAMdu5OI-19" value="DSL" style="ellipse;whiteSpace=wrap;html=1;gradientColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="290" y="274" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9ChwKFfKBZ4olAMdu5OI-20" value="路由&lt;br&gt;发现" style="ellipse;whiteSpace=wrap;html=1;gradientColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="334" y="273" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9ChwKFfKBZ4olAMdu5OI-41" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;业务端&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="50" y="228" width="130" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="9ChwKFfKBZ4olAMdu5OI-45" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;fontSize=12;fillColor=#FFFFCC;fontStyle=1;strokeWidth=3;" edge="1" parent="1" source="9ChwKFfKBZ4olAMdu5OI-13" target="9ChwKFfKBZ4olAMdu5OI-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ChwKFfKBZ4olAMdu5OI-48" value="dpstorage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9ChwKFfKBZ4olAMdu5OI-45">
+          <mxGeometry x="-0.4492" relative="1" as="geometry">
+            <mxPoint y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ChwKFfKBZ4olAMdu5OI-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9ChwKFfKBZ4olAMdu5OI-13" target="9ChwKFfKBZ4olAMdu5OI-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="284" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ChwKFfKBZ4olAMdu5OI-47" value="tRPC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9ChwKFfKBZ4olAMdu5OI-46">
+          <mxGeometry x="0.0201" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ChwKFfKBZ4olAMdu5OI-13" value="集群&lt;br&gt;是否健康" style="rhombus;whiteSpace=wrap;html=1;fillColor=#E6FFCC;fontStyle=1;strokeWidth=3;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="254" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ChwKFfKBZ4olAMdu5OI-44" value="业务库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFFFCC;strokeColor=default;rounded=1;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="105" y="390" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9ChwKFfKBZ4olAMdu5OI-49" value="健康" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="165" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9ChwKFfKBZ4olAMdu5OI-50" value="不健康" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="126" y="310" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
